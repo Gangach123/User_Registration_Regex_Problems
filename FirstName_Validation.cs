@@ -15,6 +15,14 @@ namespace Regex_Problems
         public static string mobileNo = "^91[/ /][6-9]{1}[0-9]{9}$";
         public static string password = "^[a-zA-Z0-9]{8,}";
         public static string password_2 = @"^(?=.*[A-Z])[[a-zA-Z1-9]{1}][[a-zA-Z0-9]{7,}]";
+        public static string password_3 = @"^(?=.*[0-9])[a-zA-Z0-9]{8,}$";
+
+        public void ValidatingPassword_3(string data)
+        {
+            string result = Regex.IsMatch(data, password_3) ? $"{data}: Valid Password" : $"{data}: Invalid Password";
+
+            Console.WriteLine(result);
+        }
 
         public void ValidatingPassword_2(string data)
         {
