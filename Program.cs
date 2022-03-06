@@ -6,9 +6,9 @@ namespace Regex_Problems
         public static void Main()
         {
             Console.WriteLine("Welcome to User Registration Regex Problems.");
-            FirstName_Validation firstName_Validation = new FirstName_Validation();
-            firstName_Validation.ValidateFirstName("Ganga");
-            firstName_Validation.ValidateFirstName("ganga");
+            Name_Validation lastName_Validation = new Name_Validation();
+            lastName_Validation.ValidateLastName("Chilamakooru");
+            lastName_Validation.ValidateLastName("chilamakooru");
         }
     }
 }
