@@ -16,6 +16,13 @@ namespace Regex_Problems
         public static string password = "^[a-zA-Z0-9]{8,}";
         public static string password_2 = @"^(?=.*[A-Z])[[a-zA-Z1-9]{1}][[a-zA-Z0-9]{7,}]";
         public static string password_3 = @"^(?=.*[0-9])[a-zA-Z0-9]{8,}$";
+        public static string password_4 = "^.*(?=.{8,})(?=.*)(?=.*[a-z])(?=.*[A-Z])(?=.*[!*@#$%^&+=]).*$";
+        public void ValidatingPassword_4(string data)
+        {
+            string result = Regex.IsMatch(data, password_4) ? $"{data}: Valid Password" : $"{data}: Invalid Password";
+
+            Console.WriteLine(result);
+        }
 
         public void ValidatingPassword_3(string data)
         {
@@ -26,7 +33,7 @@ namespace Regex_Problems
 
         public void ValidatingPassword_2(string data)
         {
-            string result = Regex.IsMatch(data, password) ? $"{data}: Valid Password" : $"{data}: InValid Password";
+            string result = Regex.IsMatch(data, password_2) ? $"{data}: Valid Password" : $"{data}: InValid Password";
 
             Console.WriteLine(result);
         }
