@@ -6,9 +6,11 @@ namespace Regex_Problems
         public static void Main()
         {
             Console.WriteLine("Welcome to User Registration Regex Problems.");
-            Validation validatingNumber = new Validation();
-            validatingNumber.ValidatingNumber("91 7702173235");
-            validatingNumber.ValidatingNumber("12 7702173235");
+            Validation validatingPassword = new Validation();
+            validatingPassword.ValidatingPassword("Ganga123");
+            validatingPassword.ValidatingPassword("Ganga12");
+            validatingPassword.ValidatingPassword("Ganga1234");
+            validatingPassword.ValidatingPassword("Ganga1");
         }
     }
 }
