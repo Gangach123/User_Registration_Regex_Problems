@@ -6,11 +6,12 @@ namespace Regex_Problems
         public static void Main()
         {
             Console.WriteLine("Welcome to User Registration Regex Problems.");
-            Validation validatingPassword = new Validation();
-            validatingPassword.ValidatingPassword("Ganga123");
-            validatingPassword.ValidatingPassword("Ganga12");
-            validatingPassword.ValidatingPassword("Ganga1234");
-            validatingPassword.ValidatingPassword("Ganga1");
+            Validation validatingPassword_2 = new Validation();
+            validatingPassword_2.ValidatingPassword_2("Ganga@7702");
+            validatingPassword_2.ValidatingPassword_2("Ganga123");
+            validatingPassword_2.ValidatingPassword_2("Ganga12!");
+            validatingPassword_2.ValidatingPassword_2("Ganga789&");
+            validatingPassword_2.ValidatingPassword_2("Ganga@12");
         }
     }
 }
