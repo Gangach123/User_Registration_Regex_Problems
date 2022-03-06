@@ -6,12 +6,9 @@ namespace Regex_Problems
         public static void Main()
         {
             Console.WriteLine("Welcome to User Registration Regex Problems.");
-            Validation validatingMail = new Validation();
-            //lastName_Validation.ValidateLastName("Chilamakooru");
-            //lastName_Validation.ValidateLastName("chilamakooru");
-            validatingMail.Validating_Email("chilamakooru.gangaiiit@gmail.com");
-            validatingMail.Validating_Email("Chilamakooru.gangaiiit@gmail.com");
-
+            Validation validatingNumber = new Validation();
+            validatingNumber.ValidatingNumber("91 7702173235");
+            validatingNumber.ValidatingNumber("12 7702173235");
         }
     }
 }
