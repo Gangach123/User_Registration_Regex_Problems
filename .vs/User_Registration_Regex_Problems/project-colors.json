@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "95ba392b-e726-4274-83c3-751fa711506a": {
+      "ProjectGuid": "95ba392b-e726-4274-83c3-751fa711506a",
+      "DisplayName": "User_Registration_Regex_Problems",
+      "ColorIndex": 0
+    },
+    "00242e2c-9fdf-45f8-8516-0e7aec417690": {
+      "ProjectGuid": "00242e2c-9fdf-45f8-8516-0e7aec417690",
+      "DisplayName": "User_Registration_Test_Cases",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "fa8698ad-5835-4471-a0f8-9b170adfe21c": {
+      "ProjectGuid": "fa8698ad-5835-4471-a0f8-9b170adfe21c",
+      "DisplayName": "TestCasesForUserRegex",
+      "ColorIndex": 2
+    },
+    "c2d636d9-db0e-4c9f-8348-86fa09911d56": {
+      "ProjectGuid": "c2d636d9-db0e-4c9f-8348-86fa09911d56",
+      "DisplayName": "TestProject1",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
